@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Galeria de imagenes</title>
+    <link
+      rel="stylesheet"
+      href="./css/styles.css" />
+    <script src="https://use.fontawesome.com/3a2eaf6206.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>DevHaircut 📷📷✂️</h1>
+      <div class="filter-controls">
+        <button data-category="todos">Todos</button>
+        <button data-category="low-fade">Low Fade 💇🏻‍♂️</button>
+        <button data-category="mohicano">Mohicano 💇🏻‍♂️</button>
+        <button data-category="typer-fade">Typer Fade 💇🏻‍♂️</button>
+      </div>
+    </header>
+
+    <section class="gallery">
+      <img
+        src="images/corte1.jpg"
+        alt=""
+        data-category="mohicano" />
+      <img
+        src="images/corte2.jpg"
+        alt=""
+        data-category="typer-fade" />
+      <img
+        src="images/corte3.jpg"
+        alt=""
+        data-category="typer-fade" />
+      <img
+        src="images/corte4.jpg"
+        alt=""
+        data-category="low-fade" />
+      <img
+        src="images/corte5.jpg"
+        alt=""
+        data-category="low-fade" />
+      <img
+        src="images/corte6.jpg"
+        alt=""
+        data-category="low-fade" />
+      <img
+        src="images/corte7.jpg"
+        alt=""
+        data-category="low-fade" />
+      <img
+        src="images/corte8.jpg"
+        alt=""
+        data-category="low-fade" />
+      <img
+        src="images/corte9.jpg"
+        alt=""
+        data-category="mohicano" />
+      <img
+        src="images/corte10.jpg"
+        alt=""
+        data-category="low-fade" />
+      <img
+        src="images/corte11.jpg"
+        alt=""
+        data-category="low-fade" />
+      <img
+        src="images/corte12.jpg"
+        alt=""
+        data-category="mohicano" />
+      <img
+        src="images/corte13.jpg"
+        alt=""
+        data-category="typer-fade" />
+      <img
+        src="images/corte14.jpg"
+        alt=""
+        data-category="typer-fade" />
+      <img
+        src="images/corte15.jpg"
+        alt=""
+        data-category="low-fade" />
+    </section>
+
+    <div
+      id="modal"
+      class="modal">
+      <span class="close">❌</span>
+      <img
+        class="modal-content"
+        id="modal-image" />
+    </div>
+
+    <div class="controls">
+      <input
+        type="file"
+        id="image-upload"
+        accept="image/*" />
+      <button class="add">Subir Imagen</button>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
